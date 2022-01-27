@@ -1,5 +1,5 @@
 # BadassApeGuild-RankSniffer
-Get an overview of Badass Apes that are listed on Binance, sorted on Rank.
+Get an overview of Badass Apes that are listed on Binance, sorted on Rank within seconds.
 
 ## Example usage
 - Call the program in your CLI: `python bag_rank_sniffer.py`   
@@ -8,8 +8,7 @@ Get an overview of Badass Apes that are listed on Binance, sorted on Rank.
 
 - Hereafter the program goes to work, a chrome browser opens and does a gentle web crawl on Binance NFT to check the current listed Badass Apes.
 - After approximately 40 seconds an ordered set of listed Apes with the corresponding Rank sorted on highest first:
-- All Badass Apes are available on Binance NFT.
-- You can do daily checks to see what is currently listed on Binance.
+- You can do daily checks to see what is currently listed on Binance NFT.
 
 <img src="https://user-images.githubusercontent.com/56820649/151455695-8a268f87-e07d-4323-9a1c-d144563d7bc4.png" width="1000" height="400"> **^ Click image to expand ^**
 
