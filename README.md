@@ -11,7 +11,7 @@ Get an overview of Badass Apes that are listed on Binance, sorted on Rank within
 
 <img src="https://user-images.githubusercontent.com/56820649/151455695-8a268f87-e07d-4323-9a1c-d144563d7bc4.png" width="1000" height="400">
 
-To give you an idea:
+e.g.
 `['1550', 1], ['1370', 84], ['1821', 178]` can be found on the official Badass Ape Guild site:
 
 <img src="https://user-images.githubusercontent.com/56820649/151580603-441b9552-d9db-4933-9110-74504ba761e4.png" width="150" height="180"> , <img src="https://user-images.githubusercontent.com/56820649/151574311-cd763eb0-bf9f-4023-ba2f-80772fe9292f.png" width="150" height="180"> , <img src="https://user-images.githubusercontent.com/56820649/151580694-653d90bd-08e6-4acb-8fdc-917f1c0d24fe.png" width="150" height="180">
