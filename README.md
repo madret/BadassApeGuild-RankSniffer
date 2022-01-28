@@ -47,6 +47,8 @@ https://chromedriver.chromium.org/downloads
 
 ### 3. Last but not least
 
+- Install program via requirements.txt
+
 # Credits
 
 - There are only 3333 Apes in total and they are all sold out.
