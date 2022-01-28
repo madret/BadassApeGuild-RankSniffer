@@ -25,7 +25,7 @@ To give you an idea:
 - Chromedriver
 - Python
 - Internet connection 🙉
-- 
+
 # Installation guide:
 ### 1. Check Chrome version
 - Open Google Chrome
