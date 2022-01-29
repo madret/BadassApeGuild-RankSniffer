@@ -60,7 +60,7 @@ https://chromedriver.chromium.org/downloads
 
 - After installing python now it's time to install requirements.txt: 
 `cd /folder/where/RankSniffer/is/located` & `pip install -r requirements.txt`
-- You're now good to go, go get some.
+- You're now good to go, go get some 😎
 
 # Credits
 
