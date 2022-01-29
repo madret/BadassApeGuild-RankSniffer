@@ -7,6 +7,7 @@ Get an overview of Badass Apes that are listed on Binance, sorted on Rank within
 - After a little more than a minute (depending on ISP connection) a textfile `ID+rank.txt` is created that contains all the ID numbers with corresponding Rank sorted on highest first:
 
 <img src="https://user-images.githubusercontent.com/56820649/151678040-c0caed30-e27e-4d5d-985b-dc4a36509ba5.png" width="700" height="300">
+
 Text file example:
 
 <img src="https://user-images.githubusercontent.com/56820649/151678366-3a5a78e8-bbda-46de-ab0b-5f4a54a7b728.png" width="100" height="200">
