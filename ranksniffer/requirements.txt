@@ -1,0 +1,3 @@
+selenium~=4.1.0
+
+#usage: pip install -r requirements.txt
