@@ -16,7 +16,7 @@ driver = webdriver.Chrome(options=options,service=s)
 driver.get('https://www.binance.com/en/nft/collection/Badass-Ape-Guild?currency=BUSD&amountFrom=800&amountTo=3000&orderBy=amount_sort&orderType=1&isBack=1&id=520838987141468161&order=amount_sort%401')
 #Get pass the Agreement & cookie wall:
 WebDriverWait(driver, 4).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[5]/div[3]/div/div[1]/div/div[2]/div/button[2]"))).click()
-WebDriverWait(driver, 6).until(EC.element_to_be_clickable((By.XPATH, "//button[text()='Accept']"))).click()
+WebDriverWait(driver, 7).until(EC.element_to_be_clickable((By.XPATH, "//button[text()='Accept']"))).click()
 
 print ("""
   ____            _                     _                   ____       _ _     _ 
@@ -41,7 +41,7 @@ print ("Buy your favorite ranked Badass Ape, enter the ID in the searchbar on Bi
 print ("AGAIN: Please wait until the automated chrome browser closes, than the text file is created ! :)")
 print ("**************************************************")
 
-SCROLL_PAUSE_TIME = 7
+SCROLL_PAUSE_TIME = 8
 # Get scroll height
 last_height = driver.execute_script("return document.body.scrollHeight")
 
