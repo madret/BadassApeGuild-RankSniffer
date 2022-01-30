@@ -17,7 +17,6 @@ driver.get('https://www.binance.com/en/nft/collection/Badass-Ape-Guild?currency=
 driver.set_page_load_timeout(1)
 #Get pass the Agreement & cookie wall:
 WebDriverWait(driver, 4).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[5]/div[3]/div/div[1]/div/div[2]/div/button[2]"))).click()
-time.sleep(1)
 WebDriverWait(driver, 6).until(EC.element_to_be_clickable((By.XPATH, "//button[text()='Accept']"))).click()
 
 print ("""
