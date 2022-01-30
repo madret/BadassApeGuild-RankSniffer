@@ -46,7 +46,9 @@ https://chromedriver.chromium.org/downloads
 
 <img src="https://user-images.githubusercontent.com/56820649/151450613-af0476b7-6151-47d4-83b1-7fa2e09f6323.png" width="600" height="200">
 
-- After downloading Chromedriver put it in: `C:\Program Files (x86)`
+- After clicking the correct link choose the zip file: `chromedriver_win32.zip`
+- After downloading Chromedriver copy it to: `C:\Program Files (x86)`
+- Press Continue
 
 ### 3. Last but not least
 
