@@ -8,17 +8,16 @@ Get an overview of Badass Apes that are listed on Binance, sorted on Rank within
 
 <img src="https://user-images.githubusercontent.com/56820649/151678040-c0caed30-e27e-4d5d-985b-dc4a36509ba5.png" width="700" height="300">
 
-Text file example:
+Text file results example:
 
-<img src="https://user-images.githubusercontent.com/56820649/151678366-3a5a78e8-bbda-46de-ab0b-5f4a54a7b728.png" width="100" height="200">
+<img src="https://user-images.githubusercontent.com/56820649/151701774-b9b3c6c9-a38a-4935-9d2c-092a5f848a49.png" width="120" height="220">
 
 e.g.
 `['1550', 1], ['1370', 84], ['1821', 178]` rankings can be fact checked on the official Badass Ape Guild site:
 
 <img src="https://user-images.githubusercontent.com/56820649/151580603-441b9552-d9db-4933-9110-74504ba761e4.png" width="150" height="180"> , <img src="https://user-images.githubusercontent.com/56820649/151574311-cd763eb0-bf9f-4023-ba2f-80772fe9292f.png" width="150" height="180"> , <img src="https://user-images.githubusercontent.com/56820649/151580694-653d90bd-08e6-4acb-8fdc-917f1c0d24fe.png" width="150" height="180">
 
-- https://badassapeguild.com/rarity.html
-- If the Apes are listed / for sale they can be found on Binance NFT: https://bit.ly/3IL5tV7
+- The text file contains Apes that are listed on Binance NFT: https://bit.ly/3IL5tV7
 - Spare yourself a lot of time and get automation in your life 🙊
 
 ## Prerequisites / what do you need to run the program:
