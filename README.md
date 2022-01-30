@@ -28,6 +28,7 @@ e.g.
 - Internet connection 🙉
 
 # Installation guide:
+
 ### 1. Download / check Chrome version
 - Download google chrome (if not already):
 https://www.google.com/intl/eng_eng/chrome/
@@ -50,19 +51,22 @@ https://chromedriver.chromium.org/downloads
 - After downloading Chromedriver copy it to: `C:\Program Files (x86)`
 - Press Continue
 
-### 3. Last but not least
+### 3. Final steps
 
 - Download & install Python: https://www.python.org/downloads/
 - Check the box add python to PATH:
 
-<img src="https://user-images.githubusercontent.com/56820649/151678507-67dd067d-1aaa-4754-9445-2e836734d6d1.png" width="450" height="250">
+<img src="https://user-images.githubusercontent.com/56820649/151678507-67dd067d-1aaa-4754-9445-2e836734d6d1.png" width="400" height="250">
 
-- As an additional feature Pip needs to be checked:
+- The installation has to include Pip, press Install now
+- You can now download my ranksniffer folder as zip:
 
-<img src="https://user-images.githubusercontent.com/56820649/151678525-17d08ea2-7e39-495f-8329-d3b2bcecaf34.png" width="300" height="250">
+<img src="https://user-images.githubusercontent.com/56820649/151702319-88194648-7c64-4831-b61e-4cdf41cc38af.png" width="350" height="250">
 
-- After installing python now it's time to install requirements.txt: 
-`cd /folder/where/RankSniffer/is/located` & `pip install -r requirements.txt`
+- Copy the folder to somewhere you prefer, for example: `C:\Users\username\Documents\ranksniffer`
+- Now it's time to install requirements.txt
+- Open up Powershell:
+`cd /folder/where/ranksniffer/is/located` & `pip install -r requirements.txt`
 - You're now good to go, go get some 😎
 
 # Credits
