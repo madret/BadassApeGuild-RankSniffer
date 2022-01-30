@@ -66,7 +66,8 @@ https://chromedriver.chromium.org/downloads
 - Copy the folder to somewhere you prefer, for example: `C:\Users\username\Documents\ranksniffer`
 - Now it's time to install requirements.txt
 - Open up Powershell:
-`cd /folder/where/ranksniffer/is/located` & `pip install -r requirements.txt`
+`cd /folder/where/ranksniffer/is/located` &
+`pip install -r requirements.txt`
 - You're now good to go, go get some 😎
 
 # Credits
