@@ -75,4 +75,4 @@ https://chromedriver.chromium.org/downloads
 - There are only 3333 Apes in total and they are all sold out.
 - The offical Badass Ape Guild website: https://badassapeguild.com/
 - Binance NFT marketplace: https://bit.ly/3IL5tV7
-- My modest twitter handle: https://twitter.com/b41s_
+- My modest twitter handle: https://twitter.com/b41ss
