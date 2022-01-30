@@ -77,7 +77,7 @@ driver.execute_script("window.open('');")
 # Switch to the new window
 driver.switch_to.window(driver.window_handles[1])
 #ETH search filter
-driver.get('https://www.binance.com/en/nft/collection/Badass-Ape-Guild?currency=ETH&amountFrom=0.25&amountTo=4&orderBy=amount_sort&orderType=1&isBack=1&id=520838987141468161&order=amount_sort%401')
+driver.get('https://www.binance.com/en/nft/collection/Badass-Ape-Guild?currency=ETH&amountFrom=0.25&amountTo=2&orderBy=amount_sort&orderType=1&isBack=1&id=520838987141468161&order=amount_sort%401')
 SCROLL_PAUSE_TIME = 4
 
 # Get scroll height
