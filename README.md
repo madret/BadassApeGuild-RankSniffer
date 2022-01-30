@@ -10,7 +10,7 @@ Get an overview of Badass Apes that are listed on Binance, sorted on Rank within
 
 Text file results example:
 
-<img src="https://user-images.githubusercontent.com/56820649/151701774-b9b3c6c9-a38a-4935-9d2c-092a5f848a49.png" width="120" height="220">
+<img src="https://user-images.githubusercontent.com/56820649/151703878-d0be8944-17d5-4742-a9a0-cfdb9a4f03b1.png" width="120" height="220">
 
 e.g.
 `['1550', 1], ['1370', 84], ['1821', 178]` rankings can be fact checked on the official Badass Ape Guild site:
