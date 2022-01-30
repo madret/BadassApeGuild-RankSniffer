@@ -6,7 +6,12 @@ Get an overview of Badass Apes that are listed on Binance, sorted on Rank within
 - Hereafter the program goes to work, a chrome browser opens and does a gentle web crawl on Binance NFT to check the current listed Badass Apes.
 - After a little more than a minute (depending on ISP connection) a textfile `ID+rank.txt` is created that contains all the ID numbers with corresponding Rank sorted on highest first:
 
-<img src="https://user-images.githubusercontent.com/56820649/151678040-c0caed30-e27e-4d5d-985b-dc4a36509ba5.png" width="700" height="300">
+<img src="https://user-images.githubusercontent.com/56820649/151707582-d1f18cab-f4ca-4f21-b028-5c9f731aad61.png" width="700" height="300">
+     
+- Et voila:
+
+<img src="https://user-images.githubusercontent.com/56820649/151707626-92b76a1c-8072-43b6-b8b0-d53c27132b02.png" width="700" height="20">
+
 
 Text file results example:
 
