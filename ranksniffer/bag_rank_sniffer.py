@@ -40,6 +40,7 @@ print ("The script opens up a Chrome browser and work it's magic > It will close
 print ("The output is created in a text file: id+rank.txt")
 print ("The highest ranked Apes for sale are shown first.")
 print ("Buy your favorite ranked Badass Ape, enter the ID in the searchbar on Binance NFT: https://bit.ly/3IL5tV7")
+print ("AGAIN: Please wait until the automated chrome browser closes, than the text file is created ! :)")
 print ("**************************************************")
 
 SCROLL_PAUSE_TIME = 7
