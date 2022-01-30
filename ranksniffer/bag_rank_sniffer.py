@@ -16,8 +16,9 @@ driver = webdriver.Chrome(options=options,service=s)
 driver.get('https://www.binance.com/en/nft/collection/Badass-Ape-Guild?currency=BUSD&amountFrom=800&amountTo=3000&orderBy=amount_sort&orderType=1&isBack=1&id=520838987141468161&order=amount_sort%401')
 driver.set_page_load_timeout(1)
 #Get pass the Agreement & cookie wall:
-WebDriverWait(driver, 3).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[5]/div[3]/div/div[1]/div/div[2]/div/button[2]"))).click()
-WebDriverWait(driver, 4).until(EC.element_to_be_clickable((By.XPATH, "//button[text()='Accept']"))).click()
+WebDriverWait(driver, 4).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[5]/div[3]/div/div[1]/div/div[2]/div/button[2]"))).click()
+time.sleep(1)
+WebDriverWait(driver, 6).until(EC.element_to_be_clickable((By.XPATH, "//button[text()='Accept']"))).click()
 
 print ("""
   ____            _                     _                   ____       _ _     _ 
@@ -41,8 +42,7 @@ print ("The highest ranked Apes for sale are shown first.")
 print ("Buy your favorite ranked Badass Ape, enter the ID in the searchbar on Binance NFT: https://bit.ly/3IL5tV7")
 print ("**************************************************")
 
-SCROLL_PAUSE_TIME = 5
-time.sleep(1)
+SCROLL_PAUSE_TIME = 7
 # Get scroll height
 last_height = driver.execute_script("return document.body.scrollHeight")
 
@@ -59,6 +59,7 @@ while True:
         break
     last_height = new_height
 
+time.sleep(1)
 #Main logic
 main = driver.find_elements(By.CSS_SELECTOR, "div.css-z6gv93")
 
@@ -76,12 +77,10 @@ f.close()
 driver.execute_script("window.open('');")
 # Switch to the new window
 driver.switch_to.window(driver.window_handles[1])
-time.sleep(1)
 #ETH search filter
 driver.get('https://www.binance.com/en/nft/collection/Badass-Ape-Guild?currency=ETH&amountFrom=0.25&amountTo=4&orderBy=amount_sort&orderType=1&isBack=1&id=520838987141468161&order=amount_sort%401')
 time.sleep(1)
-
-SCROLL_PAUSE_TIME = 3
+SCROLL_PAUSE_TIME = 5
 
 # Get scroll height
 last_height = driver.execute_script("return document.body.scrollHeight")
@@ -115,12 +114,11 @@ f.close()
 driver.execute_script("window.open('');")
 # Switch to the new window
 driver.switch_to.window(driver.window_handles[2])
-time.sleep(1)
 driver.get('https://www.binance.com/en/nft/collection/Badass-Ape-Guild?currency=BUSD&amountFrom=500&amountTo=5000&orderBy=amount_sort&orderType=-1&isBack=1&id=520838987141468161&order=amount_sort%40-1')
 #BUSD reversed filter
 time.sleep(1)
 
-SCROLL_PAUSE_TIME = 3
+SCROLL_PAUSE_TIME = 5
 
 # Get scroll height
 last_height = driver.execute_script("return document.body.scrollHeight")
