@@ -29,7 +29,9 @@ e.g.
 - Internet connection 🙉
 
 # Installation guide:
-### 1. Check Chrome version
+### 1. Download / check Chrome version
+- Download google chrome (if not already):
+https://www.google.com/intl/nl_nl/chrome/
 - Open Google Chrome
 - Click the three dots icon on the top right corner
 - Go to Help & About Google Chrome
