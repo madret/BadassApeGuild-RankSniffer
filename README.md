@@ -31,7 +31,7 @@ e.g.
 # Installation guide:
 ### 1. Download / check Chrome version
 - Download google chrome (if not already):
-https://www.google.com/intl/chrome/
+https://www.google.com/intl/eng_eng/chrome/
 - Open Google Chrome
 - Click the three dots icon on the top right corner
 - Go to Help & About Google Chrome
