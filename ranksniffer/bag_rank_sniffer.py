@@ -32,7 +32,7 @@ print ("""
  | |_) / _` | '_ \| |/ /   / __| '_ \| | |_| |_ / _ \ '__|
  |  _ < (_| | | | |   <    \__ \ | | | |  _|  _|  __/ |   
  |_| \_\__,_|_| |_|_|\_\   |___/_| |_|_|_| |_|  \___|_|   
-                                                                         Made by @b41s: https://twitter.com/b41ss""")
+                                                                         Made by @b41ss: https://twitter.com/b41ss""")
 print ("**************************************************")
 print ("Please wait.... do NOT close down the browser :)")
 print ("The script opens up a Chrome browser and work it's magic > It will close automatically.")
