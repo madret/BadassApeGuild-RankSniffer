@@ -13,7 +13,7 @@ options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome(options=options,service=s)
 
 #BUSD search filter
-driver.get('https://www.binance.com/en/nft/collection/Badass-Ape-Guild?currency=BUSD&amountFrom=800&amountTo=3000&orderBy=amount_sort&orderType=1&isBack=1&id=520838987141468161&order=amount_sort%401')
+driver.get('https://www.binance.com/en/nft/collection/Badass-Ape-Guild?currency=BUSD&amountFrom=700&amountTo=3000&orderBy=amount_sort&orderType=1&isBack=1&id=520838987141468161&order=amount_sort%401')
 #Get pass the Agreement & cookie wall:
 WebDriverWait(driver, 7).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[5]/div[3]/div/div[1]/div/div[2]/div/button[2]"))).click()
 time.sleep(2)
@@ -79,7 +79,7 @@ driver.execute_script("window.open('');")
 # Switch to the new window
 driver.switch_to.window(driver.window_handles[1])
 #ETH search filter
-driver.get('https://www.binance.com/en/nft/collection/Badass-Ape-Guild?currency=ETH&amountFrom=0.25&amountTo=2&orderBy=amount_sort&orderType=1&isBack=1&id=520838987141468161&order=amount_sort%401')
+driver.get('https://www.binance.com/en/nft/collection/Badass-Ape-Guild?currency=ETH&amountFrom=0.2&amountTo=2&orderBy=amount_sort&orderType=1&isBack=1&id=520838987141468161&order=amount_sort%401')
 SCROLL_PAUSE_TIME = 4
 
 # Get scroll height
@@ -115,7 +115,7 @@ f.close()
 driver.execute_script("window.open('');")
 # Switch to the new window
 driver.switch_to.window(driver.window_handles[2])
-driver.get('https://www.binance.com/en/nft/collection/Badass-Ape-Guild?currency=BUSD&amountFrom=500&amountTo=5000&orderBy=amount_sort&orderType=-1&isBack=1&id=520838987141468161&order=amount_sort%40-1')
+driver.get('https://www.binance.com/en/nft/collection/Badass-Ape-Guild?currency=BUSD&amountFrom=600&amountTo=4000&orderBy=amount_sort&orderType=-1&isBack=1&id=520838987141468161&order=amount_sort%40-1')
 #BUSD reversed filter
 
 SCROLL_PAUSE_TIME = 4
