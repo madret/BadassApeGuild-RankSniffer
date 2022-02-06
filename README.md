@@ -2,7 +2,7 @@
 Get an overview of Badass Apes that are listed on Binance, sorted on Rank within seconds. No more manual hassle.
 
 ## Example usage
-- Call the program in your Command line: `python bag_rank_sniffer.py`   
+- Call the program in your Command line OR by double clicking the python file: `python bag_rank_sniffer.py`   
 - Hereafter the program goes to work, a chrome browser opens and does a gentle web crawl on Binance NFT to check the current listed Badass Apes.
 - After a little more than a minute (depending on ISP connection) a textfile `ID+rank.txt` is created that contains all the ID numbers with corresponding Rank sorted on highest first:
 
