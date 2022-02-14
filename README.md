@@ -1,7 +1,7 @@
 # BadassApeGuild-RankSniffer
 Get an overview of Badass Apes that are listed on Binance, sorted on Rank within seconds. No more manual hassle.
 
-![usage2_Trim2](https://user-images.githubusercontent.com/56820649/153955706-07672c73-06fa-4554-83d1-a52eb64064f7.gif)
+<img src="https://user-images.githubusercontent.com/56820649/153955706-07672c73-06fa-4554-83d1-a52eb64064f7.gif" width="400" height="230">
 
 ## Prerequisites / what do you need to run the program:
 - Windows OS
